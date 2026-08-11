@@ -1,0 +1,73 @@
+[mainConfig]
+appName = "GopherAI"
+host = "0.0.0.0"
+port = 9090
+# [第三阶段优化-超时] SSE 不设置 WriteTimeout，AI 请求由独立上下文控制。
+readTimeoutSeconds = 15
+idleTimeoutSeconds = 60
+shutdownTimeoutSeconds = 10
+aiRequestTimeoutSeconds = 120
+
+[emailConfig]
+# [第一阶段优化-配置] 敏感邮件配置改由环境变量提供。
+authcode = ""
+email = ""
+
+[redisConfig]
+host = "127.0.0.1"
+port = 6379
+password = ""
+db = 0
+
+[mysqlConfig]
+host = "127.0.0.1"
+port = 3306
+# [第一阶段优化-配置] 数据库密码不再保存在可提交配置中。
+user = "root"
+password = ""
+databaseName = "GopherAI"
+charset =  "utf8mb4"
+
+[jwtConfig]
+# [第一阶段优化-认证] Token 默认缩短为 24 小时，密钥必须来自环境变量。
+ expire_duration= 24
+ issuer= "huanheart"
+ subject= "GopherAI"
+ key= ""
+
+[kafkaConfig]
+brokers = ["localhost:9092"]
+messageTopic = "gopherai.messages"
+consumerGroup = "gopherai-message-persist"
+
+ [ragModelConfig]
+  embeddingModel= "text-embedding-v4"
+  chatModelName="qwen-turbo"
+  docDir = "./docs"
+  baseUrl="https://dashscope.aliyuncs.com/compatible-mode/v1"
+  dimension=1024
+  chunkTokens=800
+  chunkOverlap=120
+  topK=10
+  maxContextTokens=4000
+  distanceThreshold=0.55
+
+[aiModelConfig]
+temperature=0.7
+maxContextTokens=16000
+maxOutputTokens=2000
+recentTurns=8
+retryMax=2
+circuitFailureThreshold=5
+circuitOpenSeconds=30
+
+[mcpConfig]
+baseUrl="http://localhost:8081/mcp"
+toolTimeoutSeconds=10
+maxToolRounds=3
+maxToolOutputBytes=32768
+
+  [voiceServiceConfig]
+# [第一阶段优化-配置] 语音服务密钥改由环境变量提供。
+  voiceServiceApiKey = ""
+  voiceServiceSecretKey =""

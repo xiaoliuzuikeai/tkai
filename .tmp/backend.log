@@ -1,0 +1,185 @@
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.548ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.759ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.tables WHERE table_schema = 'gopherai' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.522ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT * FROM `users` LIMIT 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.535ms] [34;1m[rows:-][0m SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'gopherai' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32m
+[0m[33m[1.323ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32m
+[0m[33m[1.131ms] [34;1m[rows:4][0m 
+SELECT
+	TABLE_NAME,
+	COLUMN_NAME,
+	INDEX_NAME,
+	NON_UNIQUE 
+FROM
+	information_schema.STATISTICS 
+WHERE
+	TABLE_SCHEMA = 'gopherai' 
+	AND TABLE_NAME = 'users' 
+ORDER BY
+	INDEX_NAME,
+	SEQ_IN_INDEX
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.777ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.579ms] [34;1m[rows:-][0m SELECT count(*) FROM INFORMATION_SCHEMA.table_constraints WHERE constraint_schema = 'gopherai' AND table_name = 'users' AND constraint_name = 'uni_users_username'
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.682ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'users' AND index_name = 'idx_users_username'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.682ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'users' AND index_name = 'idx_users_email'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.598ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.585ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'users' AND index_name = 'idx_users_username'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.556ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.702ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.tables WHERE table_schema = 'gopherai' AND table_name = 'sessions' AND table_type = 'BASE TABLE'
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.617ms] [34;1m[rows:-][0m SELECT * FROM `sessions` LIMIT 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.639ms] [34;1m[rows:-][0m SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'gopherai' AND table_name = 'sessions' ORDER BY ORDINAL_POSITION
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.974ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'sessions' AND index_name = 'idx_sessions_user_name'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.505ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'sessions' AND index_name = 'idx_sessions_deleted_at'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.660ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.883ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.tables WHERE table_schema = 'gopherai' AND table_name = 'messages' AND table_type = 'BASE TABLE'
+
+2026/07/17 15:18:09 [32m
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.506ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT * FROM `messages` LIMIT 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.585ms] [34;1m[rows:-][0m SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'gopherai' AND table_name = 'messages' ORDER BY ORDINAL_POSITION
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.000ms] [34;1m[rows:-][0m SELECT DATABASE()
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.521ms] [34;1m[rows:1][0m SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'gopherai%' ORDER BY SCHEMA_NAME='gopherai' DESC,SCHEMA_NAME limit 1
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/common/mysql/mysql.go:63
+[0m[33m[0.703ms] [34;1m[rows:-][0m SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'gopherai' AND table_name = 'messages' AND index_name = 'idx_messages_session_id'
+
+2026/07/17 15:18:09 [32mE:/go_code/GopherAI-main/GopherAI-v2/dao/message/message.go:30
+[0m[33m[0.000ms] [34;1m[rows:0][0m SELECT * FROM `messages` ORDER BY created_at asc
+2026/07/17 15:18:09 AIHelperManager init success 
+2026/07/17 15:18:09 redis init success  
+2026/07/17 15:18:09 kafka init success  
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/v1/user/register     --> GopherAI/controller/user.Register (3 handlers)
+[GIN-debug] POST   /api/v1/user/login        --> GopherAI/controller/user.Login (3 handlers)
+[GIN-debug] POST   /api/v1/user/captcha      --> GopherAI/controller/user.HandleCaptcha (3 handlers)
+[GIN-debug] GET    /api/v1/AI/chat/sessions  --> GopherAI/controller/session.GetUserSessionsByUserName (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/send-new-session --> GopherAI/controller/session.CreateSessionAndSendMessage (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/send      --> GopherAI/controller/session.ChatSend (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/history   --> GopherAI/controller/session.ChatHistory (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/tts       --> GopherAI/controller/tts.CreateTTSTask (4 handlers)
+[GIN-debug] GET    /api/v1/AI/chat/tts/query --> GopherAI/controller/tts.QueryTTSTask (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/send-stream-new-session --> GopherAI/controller/session.CreateStreamSessionAndSendMessage (4 handlers)
+[GIN-debug] POST   /api/v1/AI/chat/send-stream --> GopherAI/controller/session.ChatStreamSend (4 handlers)
+[GIN-debug] POST   /api/v1/image/recognize   --> GopherAI/controller/image.RecognizeImage (4 handlers)
+[GIN-debug] POST   /api/v1/file/upload       --> GopherAI/controller/file.UploadRagFile (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:9090

@@ -1,0 +1,11 @@
+# import config
+packagefile GopherAI/common/aihelper=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\4f\4f9380b9ebe20ba9c562b5979aae5e0ab07941c0705b802b088509f0a85176c3-d
+packagefile GopherAI/common/kafkaqueue=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\9d\9dc0f459218f9c8a14153704f6527b3fd966f9851ada07c4a2cbd12b0fc8ecec-d
+packagefile GopherAI/common/mysql=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\3a\3a1b8711e499720766a583f7f07cc0a4a05b2a51fa2fd761f16da8a794d293e2-d
+packagefile GopherAI/common/redis=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\ac\acbbf5219d862f0f91875cd8d399b2b7c0fb93f90ae220e5a5b5ae1d62cd6e93-d
+packagefile GopherAI/config=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\87\87afef67b973184d647729f7ebcd1916b3abc393b1b77d779dc34d95f1ec89e7-d
+packagefile GopherAI/dao/message=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\73\73463bc09fd1b9fba111b8111d863377c962a50258c92e4d8f8e51538e01dd50-d
+packagefile GopherAI/router=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\cd\cdc398ac92c4a596cfef43a4f2444d55409ddc54e0633c034027e4e7945942c5-d
+packagefile fmt=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\b0\b0808be8909b8cf1db63548351f9e801797fec33d37628a809a2895c85549c29-d
+packagefile log=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\4a\4a676b8eb76d7078b6cb83bae2d45215de614e7b0373f87acd47f167e7f13ca7-d
+packagefile runtime=E:\go_code\GopherAI-main\GopherAI-v2\.gocache\c8\c87e1e76928753fbb906738ef459460df9ef3a5b40fc8c43f6da4ae99e8ca19b-d
