@@ -1,7 +1,7 @@
 package email
 
 import (
-	"GopherAI/config"
+	"GoAI/config"
 	"fmt"
 	"strings"
 
@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	CodeMsg     = "GopherAI verification code, valid for 2 minutes:"
-	UserNameMsg = "Your GopherAI username is:"
+	CodeMsg     = "GoAI verification code, valid for 2 minutes:"
+	UserNameMsg = "Your GoAI username is:"
 )
 
 func SendCaptcha(email, code, msg string) error {
@@ -23,7 +23,7 @@ func SendCaptcha(email, code, msg string) error {
 	m := gomail.NewMessage()
 	m.SetHeader("From", emailConfig.Email)
 	m.SetHeader("To", email)
-	m.SetHeader("Subject", "GopherAI message")
+	m.SetHeader("Subject", "GoAI message")
 	m.SetBody("text/plain", msg+" "+code)
 
 	d := gomail.NewDialer("smtp.qq.com", 587, emailConfig.Email, emailConfig.Authcode)

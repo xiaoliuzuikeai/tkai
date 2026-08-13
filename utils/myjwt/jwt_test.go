@@ -2,7 +2,7 @@
 package myjwt
 
 import (
-	"GopherAI/config"
+	"GoAI/config"
 	"os"
 	"testing"
 	"time"
@@ -25,7 +25,7 @@ func TestGenerateAndParseToken(t *testing.T) {
 	t.Setenv("MYSQL_DATABASE", "test")
 	t.Setenv("JWT_SECRET", "test-secret-that-is-at-least-32-characters-long")
 	t.Setenv("JWT_EXPIRE_HOURS", "24")
-	t.Setenv("JWT_ISSUER", "GopherAI-test")
+	t.Setenv("JWT_ISSUER", "GoAI-test")
 	t.Setenv("JWT_SUBJECT", "access-token-test")
 	t.Setenv("DASHSCOP_API_KEY", "test-key")
 	t.Setenv("DASHSCOP_BASE_URL", "https://example.invalid/v1")

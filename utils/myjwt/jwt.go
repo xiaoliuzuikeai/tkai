@@ -1,7 +1,7 @@
 package myjwt
 
 import (
-	"GopherAI/config"
+	"GoAI/config"
 	"fmt"
 	"time"
 

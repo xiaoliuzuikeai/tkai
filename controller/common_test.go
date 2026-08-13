@@ -2,7 +2,7 @@
 package controller
 
 import (
-	"GopherAI/common/code"
+	"GoAI/common/code"
 	"net/http"
 	"testing"
 )

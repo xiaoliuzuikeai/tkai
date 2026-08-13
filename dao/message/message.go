@@ -1,8 +1,8 @@
 package message
 
 import (
-	"GopherAI/common/mysql"
-	"GopherAI/model"
+	"GoAI/common/mysql"
+	"GoAI/model"
 	"time"
 
 	"gorm.io/gorm"

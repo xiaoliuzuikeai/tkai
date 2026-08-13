@@ -1,11 +1,11 @@
 package file
 
 import (
-	"GopherAI/common/rag"
-	redisCommon "GopherAI/common/redis"
-	ragDocumentDAO "GopherAI/dao/ragdocument"
-	"GopherAI/model"
-	"GopherAI/utils"
+	"GoAI/common/rag"
+	redisCommon "GoAI/common/redis"
+	ragDocumentDAO "GoAI/dao/ragdocument"
+	"GoAI/model"
+	"GoAI/utils"
 	"context"
 	"crypto/sha256"
 	"encoding/hex"

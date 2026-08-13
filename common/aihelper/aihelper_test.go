@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"GopherAI/model"
+	"GoAI/model"
 
 	"github.com/cloudwego/eino/schema"
 )

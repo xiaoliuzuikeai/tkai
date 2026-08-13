@@ -1,9 +1,9 @@
 package aihelper
 
 import (
-	messageDAO "GopherAI/dao/message"
-	sessionDAO "GopherAI/dao/session"
-	"GopherAI/model"
+	messageDAO "GoAI/dao/message"
+	sessionDAO "GoAI/dao/session"
+	"GoAI/model"
 	"context"
 	"encoding/json"
 	"fmt"

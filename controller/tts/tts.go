@@ -1,9 +1,9 @@
 package tts
 
 import (
-	"GopherAI/common/code"
-	"GopherAI/common/tts"
-	"GopherAI/controller"
+	"GoAI/common/code"
+	"GoAI/common/tts"
+	"GoAI/controller"
 	"log"
 	"net/http"
 

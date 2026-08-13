@@ -1,8 +1,8 @@
 package aihelper
 
 import (
-	messageDAO "GopherAI/dao/message"
-	sessionDAO "GopherAI/dao/session"
+	messageDAO "GoAI/dao/message"
+	sessionDAO "GoAI/dao/session"
 	"context"
 	"sync"
 	"time"

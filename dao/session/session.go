@@ -1,8 +1,8 @@
 package session
 
 import (
-	"GopherAI/common/mysql"
-	"GopherAI/model"
+	"GoAI/common/mysql"
+	"GoAI/model"
 
 	"gorm.io/gorm"
 )

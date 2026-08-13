@@ -1,7 +1,7 @@
 package aihelper
 
 import (
-	"GopherAI/model"
+	"GoAI/model"
 	"strings"
 	"unicode/utf8"
 

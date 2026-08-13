@@ -1,11 +1,11 @@
 package main
 
 import (
-	"GopherAI/common/aihelper"
-	"GopherAI/common/mysql"
-	"GopherAI/common/redis"
-	"GopherAI/config"
-	"GopherAI/router"
+	"GoAI/common/aihelper"
+	"GoAI/common/mysql"
+	"GoAI/common/redis"
+	"GoAI/config"
+	"GoAI/router"
 	"context"
 	"errors"
 	"fmt"

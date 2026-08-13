@@ -1,7 +1,7 @@
 package image
 
 import (
-	"GopherAI/common/image"
+	"GoAI/common/image"
 	"io"
 	"log"
 	"mime/multipart"

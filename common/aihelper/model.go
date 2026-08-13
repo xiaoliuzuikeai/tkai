@@ -1,8 +1,8 @@
 package aihelper
 
 import (
-	"GopherAI/common/rag"
-	"GopherAI/config"
+	"GoAI/common/rag"
+	"GoAI/config"
 	"context"
 	"encoding/json"
 	"errors"
@@ -282,7 +282,7 @@ func (m *MCPModel) initializedClient(ctx context.Context) (*client.Client, []*sc
 	c := client.NewClient(httpTransport)
 	request := mcp.InitializeRequest{}
 	request.Params.ProtocolVersion = mcp.LATEST_PROTOCOL_VERSION
-	request.Params.ClientInfo = mcp.Implementation{Name: "GopherAI", Version: "2.0.0"}
+	request.Params.ClientInfo = mcp.Implementation{Name: "GoAI", Version: "2.0.0"}
 	if _, err := c.Initialize(ctx, request); err != nil {
 		c.Close()
 		return nil, nil, err

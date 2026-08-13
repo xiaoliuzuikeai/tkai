@@ -1,11 +1,11 @@
 package session
 
 import (
-	"GopherAI/common/aihelper"
-	"GopherAI/common/code"
-	messageDAO "GopherAI/dao/message"
-	"GopherAI/dao/session"
-	"GopherAI/model"
+	"GoAI/common/aihelper"
+	"GoAI/common/code"
+	messageDAO "GoAI/dao/message"
+	"GoAI/dao/session"
+	"GoAI/model"
 	"context"
 	"encoding/json"
 	"log"

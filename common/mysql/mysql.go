@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"GopherAI/config"
-	"GopherAI/model"
+	"GoAI/config"
+	"GoAI/model"
 	"fmt"
 	"time"
 

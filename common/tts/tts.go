@@ -1,7 +1,7 @@
 package tts
 
 import (
-	"GopherAI/config"
+	"GoAI/config"
 	"bytes"
 	"context"
 	"encoding/json"

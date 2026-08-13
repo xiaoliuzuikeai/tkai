@@ -1,4 +1,4 @@
-module github.com/kaitai/gopherai-mcp
+module github.com/kaitai/goai-mcp
 
 go 1.25.4
 

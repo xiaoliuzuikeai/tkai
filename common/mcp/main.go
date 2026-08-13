@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	mcpclient "github.com/kaitai/gopherai-mcp/client"
-	mcpserver "github.com/kaitai/gopherai-mcp/server"
+	mcpclient "github.com/kaitai/goai-mcp/client"
+	mcpserver "github.com/kaitai/goai-mcp/server"
 )
 
 func main() {

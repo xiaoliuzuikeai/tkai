@@ -1,17 +1,17 @@
 package user
 
 import (
-	"GopherAI/common/mysql"
-	"GopherAI/model"
-	"GopherAI/utils"
+	"GoAI/common/mysql"
+	"GoAI/model"
+	"GoAI/utils"
 	"context"
 
 	"gorm.io/gorm"
 )
 
 const (
-	CodeMsg     = "GopherAI验证码如下(验证码仅限于2分钟有效): "
-	UserNameMsg = "GopherAI的账号如下，请保留好，后续可以用账号进行登录 "
+	CodeMsg     = "GoAI验证码如下(验证码仅限于2分钟有效): "
+	UserNameMsg = "GoAI的账号如下，请保留好，后续可以用账号进行登录 "
 )
 
 var ctx = context.Background()

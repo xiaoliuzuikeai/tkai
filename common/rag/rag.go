@@ -1,8 +1,8 @@
 package rag
 
 import (
-	redisCommon "GopherAI/common/redis"
-	"GopherAI/config"
+	redisCommon "GoAI/common/redis"
+	"GoAI/config"
 	"context"
 	"errors"
 	"fmt"

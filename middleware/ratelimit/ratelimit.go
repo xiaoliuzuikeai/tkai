@@ -2,8 +2,8 @@
 package ratelimit
 
 import (
-	"GopherAI/common/code"
-	"GopherAI/controller"
+	"GoAI/common/code"
+	"GoAI/controller"
 	"strconv"
 	"sync"
 	"time"

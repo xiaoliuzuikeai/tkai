@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"GopherAI/model"
+	"GoAI/model"
 	"crypto/md5"
 	"crypto/rand"
 	"crypto/subtle"

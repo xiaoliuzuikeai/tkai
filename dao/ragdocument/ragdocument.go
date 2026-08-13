@@ -1,8 +1,8 @@
 package ragdocument
 
 import (
-	"GopherAI/common/mysql"
-	"GopherAI/model"
+	"GoAI/common/mysql"
+	"GoAI/model"
 )
 
 func Create(document *model.RAGDocument) error {

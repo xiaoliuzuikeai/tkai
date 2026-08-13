@@ -1,9 +1,9 @@
 package jwt
 
 import (
-	"GopherAI/common/code"
-	"GopherAI/controller"
-	"GopherAI/utils/myjwt"
+	"GoAI/common/code"
+	"GoAI/controller"
+	"GoAI/utils/myjwt"
 	"strings"
 
 	"github.com/gin-gonic/gin"

@@ -1,12 +1,12 @@
 package session
 
 import (
-	"GopherAI/common/aihelper"
-	"GopherAI/common/code"
-	"GopherAI/config"
-	"GopherAI/controller"
-	"GopherAI/model"
-	"GopherAI/service/session"
+	"GoAI/common/aihelper"
+	"GoAI/common/code"
+	"GoAI/config"
+	"GoAI/controller"
+	"GoAI/model"
+	"GoAI/service/session"
 	"context"
 	"fmt"
 	"net/http"

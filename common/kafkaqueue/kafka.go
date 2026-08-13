@@ -1,9 +1,9 @@
 package kafkaqueue
 
 import (
-	"GopherAI/config"
-	messageDAO "GopherAI/dao/message"
-	"GopherAI/model"
+	"GoAI/config"
+	messageDAO "GoAI/dao/message"
+	"GoAI/model"
 	"context"
 	"encoding/json"
 	"errors"

@@ -1,8 +1,8 @@
 package router
 
 import (
-	"GopherAI/controller/user"
-	"GopherAI/middleware/ratelimit"
+	"GoAI/controller/user"
+	"GoAI/middleware/ratelimit"
 	"time"
 
 	"github.com/gin-gonic/gin"

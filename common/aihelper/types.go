@@ -1,7 +1,7 @@
 package aihelper
 
 import (
-	"GopherAI/config"
+	"GoAI/config"
 	"context"
 	"errors"
 	"os"

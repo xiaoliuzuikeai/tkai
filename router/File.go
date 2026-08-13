@@ -1,7 +1,7 @@
 package router
 
 import (
-	"GopherAI/controller/file"
+	"GoAI/controller/file"
 
 	"github.com/gin-gonic/gin"
 )

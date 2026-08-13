@@ -4,7 +4,7 @@ package message
 import (
 	"testing"
 
-	"GopherAI/model"
+	"GoAI/model"
 )
 
 func TestReverseMessages(t *testing.T) {

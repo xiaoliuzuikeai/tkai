@@ -1,10 +1,10 @@
 package file
 
 import (
-	"GopherAI/common/code"
-	"GopherAI/controller"
-	"GopherAI/model"
-	"GopherAI/service/file"
+	"GoAI/common/code"
+	"GoAI/controller"
+	"GoAI/model"
+	"GoAI/service/file"
 	"log"
 	"net/http"
 

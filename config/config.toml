@@ -1,5 +1,5 @@
 [mainConfig]
-appName = "GopherAI"
+appName = "GoAI"
 host = "0.0.0.0"
 port = 9090
 # [第三阶段优化-超时] SSE 不设置 WriteTimeout，AI 请求由独立上下文控制。
@@ -32,7 +32,7 @@ charset =  "utf8mb4"
 # [第一阶段优化-认证] Token 默认缩短为 24 小时，密钥必须来自环境变量。
  expire_duration= 24
  issuer= "huanheart"
- subject= "GopherAI"
+ subject= "GoAI"
  key= ""
 
 [kafkaConfig]
