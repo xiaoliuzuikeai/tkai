@@ -2,10 +2,11 @@
 .env
 .env.local
 .gocache/
-goai_mcp_cache/
+/mcp_cache/
+/goai_mcp_cache/
 
 # Project exclude paths
-/uploads
+/uploads/
 /vue-frontend/dist/
 /vue-frontend/node_modules/
 /vue-frontend/node_modules/@babel/eslint-parser/
